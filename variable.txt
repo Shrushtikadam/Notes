@@ -1,0 +1,30 @@
+Variable name must be constructed from the following characters: 
+1) All capital case letters: A-Z 
+2) All small case letters: a-z 
+3) All digits: 0-9 
+4) Underscore: _ 
+#----------------------------------------------------------------------------
+Starting letter of the variable cannot be a digit. It can be a capital letter, 
+small letter or _. Name can be followed by any number letters including 
+capital letter, small letter, digits and underscore. 
+
+Valid Variable names: 
+
+1) num 
+2) num_1 
+3) _num_2 
+4) __roll_number 
+5) iNumberOfPeople 
+6) dwFlags 
+
+Invalid variable name: 
+1) Any name that contains any character other than capital letter, small letter, 
+digit and underscore. 
+2) Any name that starts with digit. 
+
+Invalid variable names 
+3num
+number of people 
+num&3 
+#------------------------------------------------------------
+
